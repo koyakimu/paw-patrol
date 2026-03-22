@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-03-22T07:23:13.169170+00:00",
+  "seasons": {
+    "canada": [
+      {
+        "season": 1,
+        "episode_count": 47,
+        "first_air_date": "2013-08-12",
+        "last_air_date": "2014-02-22"
+      },
+      {
+        "season": 2,
+        "episode_count": 52,
+        "first_air_date": "2014-08-13",
+        "last_air_date": "2015-10-02"
+      },
+      {
+        "season": 3,
+        "episode_count": 48,
+        "first_air_date": "2015-11-20",
+        "last_air_date": "2017-01-26"
+      },
+      {
+        "season": 4,
+        "episode_count": 50,
+        "first_air_date": "2017-02-06",
+        "last_air_date": "2018-02-01"
+      },
+      {
+        "season": 5,
+        "episode_count": 48,
+        "first_air_date": "2018-02-06",
+        "last_air_date": "2019-01-25"
+      },
+      {
+        "season": 6,
+        "episode_count": 47,
+        "first_air_date": "2019-02-22",
+        "last_air_date": "2020-03-13"
+      },
+      {
+        "season": 7,
+        "episode_count": 40,
+        "first_air_date": "2020-03-27",
+        "last_air_date": "2021-04-16"
+      },
+      {
+        "season": 8,
+        "episode_count": 38,
+        "first_air_date": "2021-04-02",
+        "last_air_date": "2022-02-25"
+      },
+      {
+        "season": 9,
+        "episode_count": 46,
+        "first_air_date": "2022-05-14",
+        "last_air_date": "2023-04-22"
+      },
+      {
+        "season": 10,
+        "episode_count": 47,
+        "first_air_date": "2023-05-27",
+        "last_air_date": "2024-06-15"
+      },
+      {
+        "season": 11,
+        "episode_count": 2,
+        "first_air_date": "2025-01-18",
+        "last_air_date": "2025-01-18"
+      }
+    ],
+    "tvtokyo": [
+      {
+        "season": 1,
+        "broadcast_range": [
+          1,
+          26
+        ],
+        "first_air_date": "2019-04-06",
+        "last_air_date": "2019-09-28"
+      },
+      {
+        "season": 2,
+        "broadcast_range": [
+          27,
+          52
+        ],
+        "first_air_date": "2020-01-12",
+        "last_air_date": "2020-07-05"
+      },
+      {
+        "season": 3,
+        "broadcast_range": [
+          53,
+          78
+        ],
+        "first_air_date": "2021-01-08",
+        "last_air_date": "2021-07-02"
+      },
+      {
+        "season": 4,
+        "broadcast_range": [
+          79,
+          292
+        ],
+        "first_air_date": "2022-01-07",
+        "last_air_date": "2026-03-27"
+      }
+    ],
+    "unext": [
+      {
+        "season": 1,
+        "season_name": "All",
+        "episode_count": 41
+      }
+    ]
+  }
+}
