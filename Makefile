@@ -1,4 +1,4 @@
-.PHONY: fetch-canada fetch-tvtokyo fetch-unext fetch-all build
+.PHONY: fetch-canada fetch-tvtokyo fetch-unext fetch-all build site
 
 fetch-canada:
 	python3 scripts/fetch_canada.py
@@ -13,3 +13,6 @@ fetch-all: fetch-canada fetch-tvtokyo fetch-unext
 
 build:
 	python3 scripts/build_database.py
+
+site: build
+	python3 scripts/build_site.py

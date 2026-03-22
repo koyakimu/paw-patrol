@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>シーズン情報 - パウ・パトロール エピソード対応表</title>
+<style>:root { --bg: #0f172a; --card: #1e293b; --border: #334155; --text: #e2e8f0;
+        --muted: #94a3b8; --accent: #38bdf8; --red: #f87171; --green: #4ade80;
+        --yellow: #facc15; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, 'Segoe UI', sans-serif; background: var(--bg);
+       color: var(--text); line-height: 1.6; }
+.container { max-width: 1100px; margin: 0 auto; padding: 1rem; }
+h1 { font-size: 1.5rem; margin-bottom: .25rem; }
+.subtitle { color: var(--muted); font-size: .9rem; margin-bottom: 1.5rem; }
+nav { display: flex; gap: .5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+nav a { color: var(--accent); background: var(--card); border: 1px solid var(--border);
+        padding: .4rem .8rem; border-radius: .375rem; text-decoration: none; font-size: .85rem; }
+nav a:hover, nav a.active { background: var(--accent); color: var(--bg); }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+         gap: .75rem; margin-bottom: 1.5rem; }
+.stat { background: var(--card); border: 1px solid var(--border); border-radius: .5rem;
+        padding: .75rem 1rem; }
+.stat-value { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+.stat-label { font-size: .8rem; color: var(--muted); }
+table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+th { background: var(--card); position: sticky; top: 0; text-align: left;
+     padding: .5rem .75rem; border-bottom: 2px solid var(--border); color: var(--muted);
+     font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; }
+td { padding: .5rem .75rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+tr:hover td { background: rgba(56,189,248,.05); }
+.rebroadcast { opacity: .6; }
+.rebroadcast td:first-child::after { content: ' 再'; font-size: .7rem;
+    background: var(--red); color: #fff; padding: .1rem .3rem; border-radius: .2rem;
+    margin-left: .3rem; vertical-align: middle; }
+.tag { font-size: .7rem; padding: .1rem .35rem; border-radius: .2rem; }
+.tag-new { background: var(--green); color: #000; }
+.tag-re { background: var(--red); color: #fff; }
+.tag-ca { background: var(--accent); color: #000; }
+.synopsis { color: var(--muted); font-size: .8rem; max-width: 400px; }
+.truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 300px; display: block; }
+footer { margin-top: 2rem; padding: 1rem 0; border-top: 1px solid var(--border);
+         color: var(--muted); font-size: .75rem; text-align: center; }
+@media (max-width: 768px) {
+  table { font-size: .75rem; }
+  td, th { padding: .4rem .5rem; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>パウ・パトロール エピソード対応表</h1>
+<p class="subtitle">TV Tokyo / U-NEXT / Canada 放送対応データベース</p>
+<nav><a href="index.html">放送リスト</a><a href="segments.html">セグメント対応</a><a href="seasons.html" class="active">シーズン情報</a><a href="rebroadcasts.html">再放送一覧</a></nav>
+<h2 style='margin:1rem 0 .5rem'>カナダ版シーズン</h2><table>
+<thead><tr><th>シーズン</th><th>話数</th><th>開始日</th><th>終了日</th></tr></thead>
+<tbody><tr>
+<td>Season 1</td>
+<td>47</td>
+<td>2013-08-12</td>
+<td>2014-02-22</td>
+</tr><tr>
+<td>Season 2</td>
+<td>52</td>
+<td>2014-08-13</td>
+<td>2015-10-02</td>
+</tr><tr>
+<td>Season 3</td>
+<td>48</td>
+<td>2015-11-20</td>
+<td>2017-01-26</td>
+</tr><tr>
+<td>Season 4</td>
+<td>50</td>
+<td>2017-02-06</td>
+<td>2018-02-01</td>
+</tr><tr>
+<td>Season 5</td>
+<td>48</td>
+<td>2018-02-06</td>
+<td>2019-01-25</td>
+</tr><tr>
+<td>Season 6</td>
+<td>47</td>
+<td>2019-02-22</td>
+<td>2020-03-13</td>
+</tr><tr>
+<td>Season 7</td>
+<td>40</td>
+<td>2020-03-27</td>
+<td>2021-04-16</td>
+</tr><tr>
+<td>Season 8</td>
+<td>38</td>
+<td>2021-04-02</td>
+<td>2022-02-25</td>
+</tr><tr>
+<td>Season 9</td>
+<td>46</td>
+<td>2022-05-14</td>
+<td>2023-04-22</td>
+</tr><tr>
+<td>Season 10</td>
+<td>47</td>
+<td>2023-05-27</td>
+<td>2024-06-15</td>
+</tr><tr>
+<td>Season 11</td>
+<td>2</td>
+<td>2025-01-18</td>
+<td>2025-01-18</td>
+</tr></tbody>
+</table><h2 style='margin:1.5rem 0 .5rem'>テレビ東京シーズン</h2><table>
+<thead><tr><th>シーズン</th><th>放送回</th><th>開始日</th><th>終了日</th></tr></thead>
+<tbody><tr>
+<td>シーズン 1</td>
+<td>#1 - #26</td>
+<td>2019-04-06</td>
+<td>2019-09-28</td>
+</tr><tr>
+<td>シーズン 2</td>
+<td>#27 - #52</td>
+<td>2020-01-12</td>
+<td>2020-07-05</td>
+</tr><tr>
+<td>シーズン 3</td>
+<td>#53 - #78</td>
+<td>2021-01-08</td>
+<td>2021-07-02</td>
+</tr><tr>
+<td>シーズン 4</td>
+<td>#79 - #292</td>
+<td>2022-01-07</td>
+<td>2026-03-27</td>
+</tr></tbody>
+</table>
+<footer>Generated from <a href="https://github.com/koyakimu/paw-patrol" style="color:var(--accent)">koyakimu/paw-patrol</a></footer>
+</div>
+</body>
+</html>
